@@ -108,7 +108,8 @@ $.fn.pageMe = function(opts){
   $(".btn-danger").click(function(event){
     if(!confirm("Are you sure?")) {
       event.preventDefault();
-      window.location.assign("/games");
+      //Location was assigned to "/games". Changed to the correct one
+      window.location.assign("/books");
     }
   });
 
